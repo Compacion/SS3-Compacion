@@ -145,7 +145,7 @@ $total = 165000 + 85800 + 75900 + 13200 + 22000;
   $total3=number_format($total3,2);
   $total3="$".$total3;
 
-  $name= "Cristy C. Compacion";
+  $name6= "Cristy C. Compacion";
 
   
 echo "<table width='82%' border='0' align='center' cellpadding='5' cellspacing='0'>"; 
@@ -205,7 +205,7 @@ echo "</tr>";
 echo "</table>";  
   echo "<br>";
 
-  echo "<h6>Created by: $name</h6>";
+  echo "<h6>Created by: $name6</h6>";
 ?>
 
 </body>
