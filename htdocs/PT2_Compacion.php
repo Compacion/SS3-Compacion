@@ -11,13 +11,7 @@
       font-size: 12px;
       text-align: center;
     }
-    .style1 {color: gray}
-    .style2 {
-      color: #006600;
-      font-weight: bold;
-    }
-    .style3 {color: #006600}
-    .style7 {color: #0000FF; font-style: italic; }
+    
     body {
       background-image: url(nice.jpg);
       background-size: cover;
