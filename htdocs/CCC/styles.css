@@ -1,0 +1,145 @@
+/*Styling nav*/
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    background: light violet;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+    z-index: 99;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);   
+}
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.nav a {
+ text-decoration:none;
+ color: white;
+ font-weight:600;
+ font-size: 16px;
+ padding: 10px 15px;
+ border-radius: 5px;
+ trasition: background-color 0.3s ease, transform 0.3s ease;
+}
+.nav a:hover {
+    background-color: #9400D3;
+    transform: scale(1.1);
+}
+.nav button {
+    padding: 10px 20px;
+    background-color: #301934;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:600;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.nav button:hover {
+    background-color:#9400D3;
+    transform:scale(1.05);
+}
+.logo {
+     font-size: 24px;
+      font-weight:700;
+      font-family: cursive;
+      border-top: 10px solid #9400D3;
+      border-left: 10px solid #9400D3;
+      border-bottom: 10px solid #9400D3;
+      border-radius: 50%;
+}
+@media (max-width:768px) {
+    .nav {
+        flex-direction:column;
+        align-text: flex-start;
+    }
+  .nav a {
+      padding:12px;
+      width: 100%;
+      text-align: left;
+  }
+}
+
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    width: 400px;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #764ba2;
+}
+
+.result {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}

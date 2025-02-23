@@ -7,7 +7,7 @@
     table 
     body,td,th {
       font-family: Times,roman,sans-serif;;
-      color: #000033;
+      color: white;
       font-size: 12px;
       text-align: center;
     }
@@ -19,7 +19,7 @@
     .style3 {color: #006600}
     .style7 {color: #0000FF; font-style: italic; }
     body {
-      background-image: url(nice.jpg);
+      background-image: url(hi.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       border: 2px solid #000000;
@@ -30,33 +30,37 @@
     }
     .style8 {color: gray}
     th {
-      background-color: lightgray;
+      background-color:rgb(1, 25, 73);
     }
     h1 {
-      text-shadow: 10px 10px 10px blue;
+      text-shadow: 5px 5px 5px #0511fc;
     }
     h2 {
-      text-shadow: 10px 10px 10px red;
+      text-shadow: 5px 5px 5px #fc050d;
     }
     td#hi {
-      background-color: lightgreen;
+      background-color:rgb(136, 5, 103);
     }
     td#he {
-      background-color: lightblue;
+      background-color:rgb(80, 6, 114);
     }
     h6 {
-      
+      color: white;
       text-align: right;
       position:relative; left: -9%;
       text-shadow: 10px 10px 10px black;
     }
+    td#she {
+      color: white;
+    }
+   
       </style>
 </head>
 <body>
 <br><br><br><br><br><br>
-<center><h1 style="color:black"><b>Public Library Expansion Project</b></h1></center>
+<center><h1 style="color:white"><b>Public Library Expansion Project</b></h1></center>
 <br>
-<center><h2 style="color:black"><b>Cost Estimates</b></h2></center>
+<center><h2 style="color:white"><b>Cost Estimates</b></h2></center>
 <br>
 <?php
 $name = "Lumber";
@@ -145,10 +149,10 @@ $total = 165000 + 85800 + 75900 + 13200 + 22000;
   $total3=number_format($total3,2);
   $total3="$".$total3;
 
-  $name= "Cristy C. Compacion";
+  $name6= "Cristy C. Compacion";
 
   
-echo "<table width='82%' border='0' align='center' cellpadding='5' cellspacing='0'>"; 
+echo "<table width='82%' border='2' align='center' cellpadding='5' cellspacing='0'>"; 
 echo "<tr>";
 echo "<th>Expenditures</th>";
 echo "<th>Estimated Cost</th>";
@@ -195,17 +199,17 @@ echo "</tr>";
  echo "</table>";
 
   echo "<br>";
-  echo "<table width='83%' border='0' align='center' cellpadding='5' cellspacing='0'>";
+  echo "<table width='83%' border='0' align='center' cellpadding='5' cellspacing='0' >";
   echo "<tr>";
-  echo "<td align='left'><b>Total Expenditures:</b></td>";
-  echo "<td>$estimated_cost</td>";
-  echo "<td>$total</td>";
-  echo "<td>$total2</td>";
-  echo "<td>$total3</td>";
+  echo "<td align='left' id='she'><b>Total Expenditures:</b></td>";
+  echo "<td id='she'>$estimated_cost</td>";
+  echo "<td id='she'>$total</td>";
+  echo "<td id='she'>$total2</td>";
+  echo "<td id='she'>$total3</td>";
 echo "</table>";  
   echo "<br>";
 
-  echo "<h6>Created by: $name</h6>";
+  echo "<h6>Created by: $name6</h6>";
 ?>
 
 </body>
