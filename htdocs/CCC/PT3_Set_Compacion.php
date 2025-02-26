@@ -36,7 +36,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <a href="home.html">Home</a>
             <a href="converter.html">Converter</a>
             <a href="me.html">About Me</a>
-            <a href="cal.php"><button>Try</button></a>
+            <a href="PT3_Set_Compacion.php"><button>Try</button></a>
         </nav>
     </header>
 
