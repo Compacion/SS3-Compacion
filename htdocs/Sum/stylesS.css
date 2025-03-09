@@ -1,0 +1,178 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and page layout */
+body {
+    font-family: 'Arial', sans-serif;
+     background: linear-gradient(to right, #667eea, #764ba2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #f3f2f2;
+}
+
+/* Container for content */
+.container {
+    background: transparent;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Heading styles */
+h1 {
+    font-size: 2.5rem;
+    color: #2E145D;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    color: #555;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    transition: border-color 0.3s;
+}
+
+input[type="number"]:focus {
+    border-color: #2E145D;
+}
+
+input[type="submit"] {
+    padding: 12px;
+    background-color: #2E145D;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #261342;
+}
+
+/* Styling for the result output */
+.result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #e7f7e7;
+    border: 1px solid #2E145D;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+/*Nav ni ari*/
+
+
+/* Header and navigation styling */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 50px;
+    background: light violet;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 99;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+}
+
+/* Logo styling */
+.logo {
+    font-size: 24px;
+    font-weight:700;
+    font-family: cursive;
+    border-top: 10px solid #9400D3;
+    border-left: 10px solid #9400D3;
+    border-bottom: 10px solid #9400D3;
+    border-radius: 50%;
+}
+
+/* Navigation styling */
+.nav {
+    display: flex;
+    gap: 20px;
+}
+
+.nav a {
+     text-decoration:none;
+     color: white;
+     font-weight:600;
+     font-size: 20px;
+     padding: 10px 15px;
+     border-radius: 5px;
+     trasition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav a:hover {
+    background-color: #9400D3;
+    transform: scale(1.1);
+}
+
+/* Button inside navigation */
+.nav button {
+    padding: 10px 20px;
+    background-color: #301934;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    font-size:16px;
+    font-weight:100;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.nav button:hover {
+    background-color:#9400D3;
+    transform:scale(1.05);
+}
+@media (max-width:768px) {
+    .nav {
+        flex-direction:column;
+        align-text: flex-start;
+    }
+  .nav a {
+      padding:12px;
+      width: 100%;
+      text-align: left;
+  }
+}
+.ola {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
